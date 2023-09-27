@@ -15,6 +15,7 @@ li{
 }
 
 ul{
+    margin-top: 20px;
     display: inline-flex;
 }
 
@@ -23,11 +24,24 @@ a{
     text-decoration: none;
 }
 
+
 .headerLi{
     margin: 30px;
     font-size: larger;
 }
 
 .h3Header{
-    margin: 30px;
+    padding: 5px;
+    margin-top: 50px;
+    border-radius: 10px;
+    border: 1px solid #9E3750;
+    width: 70px;
+    text-align: center;
+    height: 24px;
+    cursor: pointer;
 }
+
+.h3Header:hover{
+    background-color: #9E3750;
+}
+
